@@ -1,0 +1,15 @@
+[package]
+name = "proc-modules"
+version = "0.1.0"
+authors = [
+    "Jeremy Soller <jackpot51@gmail.com>",
+    "Michael Aaron Murphy <michael@system76.com>"
+]
+description = "Fetch a list of kernel modules from /proc/modules"
+repository = "https://github.com/pop-os/proc-modules"
+readme = "README.md"
+license = "MIT"
+categories = ["os::unix-apis"]
+keywords = ["linux",  "proc", "modules"]
+
+[dependencies]
